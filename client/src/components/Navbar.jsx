@@ -1,15 +1,17 @@
 import React from 'react'
-import { AppBar, Toolbar } from '@mui/material'
-
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-      <AppBar>
-          <Toolbar className='flex items-center justify-center gap-10'>
-              <p className=" font-sans"><a href='/'>Home</a></p>
-              <p className='font-sans'><a href='/addcontact'>Add Contact</a></p>
-              <p className='font-sans'><a href='/allcontact'>All Contact</a></p>
-          </Toolbar>
-      </AppBar>
+    <>
+      <div className='flex justify-center bg-slate-600'>
+        <ul className='flex justify-center font-serif font-semibold text-white gap-11 pt-5 pb-5'>
+          <li><Link to='/'>Home</Link></li>
+          <li><Link to='/create'>Add Contact</Link></li>
+           <li><Link to='/contact'>All Contact</Link></li>
+        </ul>
+
+      </div>
+    </>
   )
 }
 
