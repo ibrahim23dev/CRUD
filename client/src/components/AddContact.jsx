@@ -71,7 +71,7 @@ function AddContact() {
         
         <div className="justify-center">
           <label
-            className="flex justify-center items-center flex-col h-[150px] cursor-pointer border border-dashed hover:border-indigo-500 w-[150px] border-[#18181a]"
+            className="bg-[#d0d2d6] flex justify-center items-center flex-col h-[150px] cursor-pointer border border-dashed hover:border-indigo-500 w-[150px] border-[#18181a]"
             htmlFor="image"
           >
               <>
